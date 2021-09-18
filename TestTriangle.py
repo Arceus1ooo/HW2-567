@@ -22,6 +22,9 @@ class TestTriangles(unittest.TestCase):
 
     def testRightTriangleB(self): 
         self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+
+    def testRightTriangleC(self):
+        self.assertEqual(classifyTriangle(60,61,11),'Right','420,421,30 is a Right triangle')
         
     def testEquilateralTrianglesA(self): 
         self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
