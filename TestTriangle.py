@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Updated Jan 21, 2018
-The primary goal of this file is to demonstrate a simple unittest implementation
+Updated Sept 18, 2021
+The primary goal of this file is to demonstrate a simple unittest implementation and
+thorough testing of the classifyTriangle() function
 
-@author: jrr
-@author: rk
+@author: Gavin Snyder
 """
 
 import unittest
